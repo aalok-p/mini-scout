@@ -1,0 +1,49 @@
+portals:
+  - name: SSC
+    url: https://ssc.nic.in
+    collector_id: c_placeholder_ssc
+    scraper_type: discovery
+    schedule: "0 */6 * * *"
+    quality_threshold: 3
+
+  - name: UPSC
+    url: https://upsc.gov.in
+    collector_id: c_placeholder_upsc
+    scraper_type: discovery
+    schedule: "0 */6 * * *"
+    quality_threshold: 2
+
+  - name: IBPS
+    url: https://ibps.in
+    collector_id: c_placeholder_ibps
+    scraper_type: discovery
+    schedule: "0 */6 * * *"
+    quality_threshold: 2
+
+  - name: NSP
+    url: https://scholarships.gov.in
+    collector_id: c_placeholder_nsp
+    scraper_type: discovery
+    schedule: "0 0 * * *"
+    quality_threshold: 1
+
+  - name: MPPSC
+    url: https://mppsc.mp.gov.in
+    collector_id: c_placeholder_mppsc
+    scraper_type: discovery
+    schedule: "0 */12 * * *"
+    quality_threshold: 1
+
+  - name: SSC_SYLLABUS
+    url: https://ssc.nic.in/syllabus
+    collector_id: c_placeholder_ssc_syllabus
+    scraper_type: pdp
+    schedule: "0 0 * * 0"
+    quality_threshold: 1
+
+  - name: UPSC_SYLLABUS
+    url: https://upsc.gov.in/syllabus
+    collector_id: c_placeholder_upsc_syllabus
+    scraper_type: pdp
+    schedule: "0 0 * * 0"
+    quality_threshold: 1

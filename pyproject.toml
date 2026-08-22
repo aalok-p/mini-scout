@@ -1,7 +1,7 @@
 [project]
 name = "scout"
 version = "0.1.0"
-description = "Self-healing government opportunity tracker + multi-agent career copilot for Indian students."
+description = "Self-healing opportunity tracker"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.115.0",
