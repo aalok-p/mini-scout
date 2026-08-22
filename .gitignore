@@ -1,0 +1,17 @@
+tmp/
+data/
+.env
+__pycache__/
+*.pyc
+*.pyo
+supabase/
+*.db
+*.sqlite3
+node_modules/
+.venv/
+venv/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+playwright-report/
