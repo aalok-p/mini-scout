@@ -8,5 +8,6 @@ class Config(BaseSettings):
     )
 
     database_url: str
+    brightdata_api_token: str
 
 config = Config()
